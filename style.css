@@ -1,5 +1,5 @@
 /* Nav Menu */
-nav > ul > li {
+li.nav-menu-items {
 	text-decoration: none;
     list-style: none;
     display: inline;
