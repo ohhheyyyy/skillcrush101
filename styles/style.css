@@ -1,0 +1,62 @@
+body {
+	background-color: #2956B2;
+	color: #ffffff;
+	margin: 5%;
+	top: 0;
+	bottom: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat';
+	font-weight: 700;
+}
+
+p, li {
+	font-family: 'CallunaSans-Regular';
+	/*font-family: 'Raleway';
+	font-weight: 400;*/
+	
+}
+
+.CallunaSans-Regular { 
+	font-family: CallunaSans-Regular;
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Nav Menu */
+ul {
+	text-align: right;
+}
+
+ul li#work.nav-menu-items::after {
+	content: ' | ';
+	padding: 0 10px;
+}
+
+ul > li > a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+ul > li > a:hover {
+	background-color: tomato;
+	padding: 3%;
+}
+
+li.nav-menu-items {
+	text-decoration: none;
+    list-style: none;
+    display: inline;
+    justify-content: flex-end;
+}
+
+hr.style1 {
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+}
+
+footer a img {
+	max-height: 10%;
+}
