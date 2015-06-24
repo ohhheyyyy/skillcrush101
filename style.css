@@ -1,0 +1,8 @@
+/* Nav Menu */
+nav > ul > li {
+	text-decoration: none;
+    list-style: none;
+    display: inline;
+    padding: 5px 10px;
+    background-color: #00ff00;
+}
