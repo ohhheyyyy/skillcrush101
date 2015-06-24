@@ -1,3 +1,19 @@
+body {
+	background-color: #2956B2;
+	color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Open Sans';
+	font-weight: 700;
+}
+
+p {
+	font-family: 'Raleway';
+	font-weight: 400;
+	
+}
+
 /* Nav Menu */
 li.nav-menu-items {
 	text-decoration: none;
