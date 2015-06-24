@@ -57,6 +57,14 @@ hr.style1 {
     border: 0;
 }
 
+footer a {
+	color: #ffffff;
+}
+
+footer a:hover {
+	color: tomato;
+}
+
 footer a img {
 	max-height: 10%;
 }
