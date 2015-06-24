@@ -6,18 +6,23 @@
         <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
     <link rel="stylesheet" href="style.css" />
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:400,500,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="styles/flexbox.css">
     <link rel="stylesheet" type="text/css" href="styles/MyFontsWebfontsKit.css">
     </head>
-    
     <body>
     <header id="header">
         <nav id="top-nav">
-        <h1 id="logo">ashley h<span style="color: tomato;">art</span>t</h1>
-        <ul>
-            <li class="nav-menu-items">Home</li>
-            <li class="nav-menu-items">About</li>
-            <li class="nav-menu-items">Blog</li>
-        </ul>
+            <div class="row middle-lg middle-md middle-sm middle-xs">
+                <div class="col-lg col-md col-sm col-xs">
+                <h1 id="logo">ashley h<span style="color: tomato;">art</span>t</h1>
+                </div>
+                <div class="col-lg col-md col-sm col-xs">
+                    <ul>
+                        <li id="work" class="nav-menu-items"><a href="#">work</a></li>
+                        <li class="nav-menu-items"><a href="#">etc</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
         <hr class="style1">
@@ -27,11 +32,12 @@
         </section>
     <footer>
         <hr class="style1">
-        <p>Hand Coded in the United States</p>
-        <p>© 2015</p> 
-        <a href="https://twitter.com/ohhheyyyyyy" target="_blank"><img src="https://cdn3.iconfinder.com/data/icons/leaf/256/twitter.png" alt="Twitter social media icon" style="width: 5%;"/></a>
+        <div class="row center-lg center-md center-sm center-xs">
+            <div class="col"><p>Hand Coded in the United States</p>
+            <p>© 2015</p> 
+            <a href="https://twitter.com/ohhheyyyyyy" target="_blank"><img src="https://cdn3.iconfinder.com/data/icons/leaf/256/twitter.png" alt="Twitter social media icon"/></a>
+            </div>
+        </div>
     </footer>    
     </body>
-
-
 </html>
