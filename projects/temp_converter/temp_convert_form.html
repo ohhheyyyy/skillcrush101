@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Temperature Converter</title>
+  <link href='style.css' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="../../styles/style.css" />
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:400,500,700">
+  <link rel="stylesheet" type="text/css" href="../../styles/flexbox.css">
+  <link rel="stylesheet" type="text/css" href="../../styles/MyFontsWebfontsKit.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <script type="text/javascript" src="temp_convert.js"/></script>
+</head>
+<body>
+  <header id="header">
+        <nav id="top-nav">
+            <div class="row middle-lg middle-md middle-sm middle-xs">
+                <div class="col-lg col-md col-sm col-xs">
+                <h1 id="logo"><a href="../../index.html">ashley h<span style="color: #f39c12;">art</span>t</a></h1>
+                </div>
+                <div class="col-lg col-md col-sm col-xs">
+                    <ul>
+                        <li id="work" class="nav-menu-items"><a href="../../work.html">work</a></li>
+                        <li class="nav-menu-items"><a href="#">etc</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <hr class="style1">
+  <div class="work-temp-main-content">
+<h1 id="main-heading">Celsius / Fahrenheit Temperature Converter</h1>
+  <form name="tempForm">
+            <div id="temp-to-convert">
+            <label class="temp-label" for="temp">Enter the Temperature You'd Like to Convert:</label>
+            <input class="temp-label" type="text" id="temp"><br>
+            </div>
+
+            <div id ="radio-buttons">
+            <input type="radio" name="choice" value="fahrenheit" checked />Convert to <span style="font-weight: 700;">Fahrenheit</span>
+            <div style="clear:both;"></div>
+            <br />
+            <input type="radio" name="choice" value="celsius">Convert to <span style="font-weight: 700;">Celsius</span><br>
+          </div>
+          <div id="converted-temp">
+            <label for="resultField">Result: </label>
+            <input type="text" id="resultField"><br>
+          </div> 
+
+            <input type="button" value="Convert" onclick="processForm()">
+        </form>
+</div>
+&nbsp;
+<div style="clear:both;"></div>
+<footer>
+        <hr class="style1">
+        <div class="row center-lg center-md center-sm center-xs">
+            <div class="col"><p>&copy; 2015 | Hand Coded in the <a href="https://www.google.com/maps/place/Delaware/@39.145251,-75.4189207,9z/data=!3m1!4b1!4m2!3m1!1s0x89c705764d0cd63b:0x941d2d128c04e878" target="_blank">First State</a> | <a href="mailto:howdy@ashleyhartt.com">Contact</a></p>
+            <br />
+            <a href="https://twitter.com/ohhheyyyyyy" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
+            &nbsp;
+            <a href="https://github.com/ohhheyyyy" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
