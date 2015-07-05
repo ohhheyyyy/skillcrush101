@@ -1,0 +1,133 @@
+/* modal.css */
+
+/* CSS Reset */
+/* Cross Browser Compatability CSS */
+/**
+ * html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+ * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
+ * html5doctor.com/html-5-reset-stylesheet/
+ */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+
+/* Ruuulllll Styles*/
+
+#modal-madness-page {
+	background-color: #f1c40f;
+}
+
+h1#logo a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+li {
+	font-family: 'CallunaSans-Regular';
+}
+
+ul > li > a:hover {
+    border-bottom: 3px solid #8e44ad !important;
+}
+
+#showModalButton {
+	font-size: 24px;
+  	font-family: 'Fjalla One', sans-serif !important;
+  	color: #ffffff;
+	background-color: #000000;
+	border-radius: 10px;
+	padding: 1%;
+	margin: 16% auto;
+	display: block;
+	width: 20%;
+	border: none;
+}
+
+#modalContainer {
+	background-color: #8e44ad;
+	min-height: 200px;
+	width: 80%;
+	margin: 2% auto;
+	display: none;
+	border-radius: 10px;
+	padding: 5% 5% 3%;
+}
+
+#modalContent {
+	font-family: 'Average', serif !important;
+	color: #ecf0f1;
+	font-size: 20px;
+	text-align: center;
+}
+
+#modal-madness-page #modalContent h1 {
+	font-family: 'Fjalla One', sans-serif !important;
+	font-size: 48px;
+	text-transform: uppercase;
+	margin-bottom: 2%;
+}
+
+#hideModalButton {
+	font-size: 24px;
+	font-family: 'Fjalla One', sans-serif;
+	color: #ffffff;
+	background-color: #000000;
+	border-radius: 10px;
+	padding: 1%;
+	margin: 3% 3% 0;
+	border: none;
+	width: 20%;
+}
+
+#modal-madness-page footer a, #modal-madness-page footer p a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#modal-madness-page footer p a:hover {
+	border-bottom: 3px solid #8e44ad;
+	color: #ffffff;
+}
+
+#modal-madness-page footer a:hover {
+	color: #8e44ad;
+}
