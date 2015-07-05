@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 2.25em;
 }
 
-p, li {
+nav-menu-items, p, li {
 	font-family: 'CallunaSans-Regular';
 	/*font-family: 'Raleway';
 	font-weight: 400;*/
@@ -87,6 +87,10 @@ ul li#work.nav-menu-items::after {
 ul > li > a {
 	text-decoration: none;
 	color: #ffffff;
+}
+
+#work-list > li {
+  margin-bottom: 5px;
 }
 
 ul > li > a:hover {
