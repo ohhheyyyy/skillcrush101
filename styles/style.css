@@ -46,7 +46,7 @@ hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin:
 
 input, select { vertical-align: middle; }
 
-/* Styles */
+/* Ruuuulll Styles */
 
 body {
 	background-color: #2956B2;
@@ -131,3 +131,20 @@ footer a:hover {
 footer a img {
 	max-height: 10%;
 }
+
+/* Werk werk werk */
+
+h1#logo a#header-home-link {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+ul#work-list {
+	text-align: left;
+	list-style: outside none none;
+}
+
+#work-list > li::before {
+    /*content: " \f08a	";*/
+    content: " \f101";
+    font-family: "FontAwesome";
