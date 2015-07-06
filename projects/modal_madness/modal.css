@@ -92,7 +92,7 @@ ul > li > a:hover {
 	padding: 5% 5% 3%;
 }
 
-#modalContent {
+#modalContent, #modalContent p {
 	font-family: 'Average', serif !important;
 	color: #ecf0f1;
 	font-size: 20px;
