@@ -33,4 +33,4 @@ function hideModal() {
 
 showModalButton.onclick = showModal;
 hideModalButton.onclick = hideModal;
-})
+});
