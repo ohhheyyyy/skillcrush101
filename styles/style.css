@@ -68,6 +68,13 @@ nav-menu-items, p, li {
 	
 }
 
+::selection {
+  background: #34495e; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #34495e; /* Gecko Browsers */
+}
+
 .CallunaSans-Regular { 
 	font-family: CallunaSans-Regular;
 	font-weight: normal;
