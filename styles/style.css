@@ -121,6 +121,10 @@ hr.style1 {
 	margin-bottom: 2%;
 }
 
+#home-main img.photo-frame {
+	border: 15px solid #ffffff;
+}
+
 footer hr {
 	margin: 2% 0;
 }
