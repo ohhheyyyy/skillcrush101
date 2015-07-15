@@ -126,7 +126,15 @@ hr.style1 {
     margin-bottom: 2%;
 }
 
-hr#footer-divider.style1 {
+hr.style1-white {
+	height: 6px;
+	background: url("../images/hr-11-white.png") repeat-x 0 0;
+    border: 0;
+    margin-bottom: 2%;
+}
+
+hr#footer-divider.style1,
+hr#footer-divider.style1-white {
 	margin-top: 3%;
 }
 
