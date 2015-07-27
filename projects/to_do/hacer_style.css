@@ -84,7 +84,7 @@ div.item input {
 
 footer p a:hover {
     border-bottom: 3px solid #FCC9B9 !important;
-    color: #ffffff;
+    color: #ffffff !important;
 }
 
 footer a:hover {
