@@ -181,7 +181,7 @@ footer p, footer a, footer p a {
 	color: #ffffff;
 	text-decoration: none;
 	font-size: 18.4px;
-	font-family: "CallunaSans-Regular", sans-serif;
+	font-family: "CallunaSans-Regular", sans-serif !important;
 }
 
 footer p a:hover {

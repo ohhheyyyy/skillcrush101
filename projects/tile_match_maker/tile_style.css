@@ -110,9 +110,9 @@ section {
     display: block;
 }
 
-body {
+/*body {
     line-height: 1;
-}
+}*/
 
 ol,
 ul {
@@ -217,7 +217,7 @@ div#memoryGameBoard > div {
     border-radius: 5px;
 }
 
-h1 {
+h1#memory-match {
     font-family: 'Ovo', serif;
     font-size: 3.5em;
 }
